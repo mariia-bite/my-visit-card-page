@@ -27,8 +27,7 @@ h3 {
   font-family: var(--heading-font-family);
 }
 body {
-  margin: 100px 0;
-  background-color: var(--secondary-color);
+  margin: 0 0 50px 0;
   font-family: var(--default-font-family);
 }
 
@@ -36,6 +35,12 @@ p {
   border-radius: 4px;
   font-size: 18px;
   line-height: 1.5;
+}
+
+.introduction {
+  background-color: var(--secondary-color);
+  padding: 160px 20px;
+  margin: 0;
 }
 
 .navigation-links {
@@ -47,7 +52,9 @@ p {
 .navigation-links a {
   margin: 20px;
   border-radius: 4px;
-  padding: 20px 15px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
   text-decoration: none;
   text-transform: capitalize;
 }
@@ -90,9 +97,13 @@ p {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: white;
+  background: white;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.primary-link:hover {
+  color: black;
 }
 
 @media (max-width: 900px) {
@@ -102,6 +113,7 @@ p {
   }
   h2 {
     font-size: 32px;
+    text-align: center;
   }
   p {
     text-align: center;
