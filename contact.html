@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Mariia Velykoridko is a Front-end Developer based in Europe, check out her projects."
+      content="Contact information"
     />
-    <title>About me - Mariia Velykoridko</title>
+    <title>Contact Mariia</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -31,50 +31,28 @@
   </head>
 
   <body>
-    <div class="container">
-      <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html" title="Homepage"
-            >Mariia Velykoridko</a
-          >
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html" title="Homepage">Home</a>
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  aria-current="page"
-                  href="#"
-                  title="About Mariia Velykoridko"
-                  >About me</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="about.html#contact"
-                  title="Contact Mariia"
-                  >Contact me</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
+     <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img src="images/logo.png" class="logo d-none d-md-block" alt="SheCodes logo" />
+          <img
+            src="images/logo-small.jpg"
+            class="logo d-block d-md-none"
+            alt="SheCodes logo"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage"> Home</a>
+          </li>
+          <li><a href="/about.html" title="About Mariia"> About</a></li>
+          <li><a href="/work.html" title="Mariia's work"> Work</a></li>
+          <li class="active"><a href="/contact.html" title="Contact Mariia"> Contact</a></li>
+        </ul>
       </nav>
-      <div class="content-container container">
+    </div>
+    <div class="container">
+            <div class="content-container container">
         
             <div class="content">
             <h1 class="mb-4">Let's get in touch!</h1>
@@ -92,6 +70,17 @@
             </p>
             
       </div>
+       <footer>
+        
+        <p class="text-center mt-5">
+          This project was coded by Mariia Velykoridko, and is
+          <a
+            href="https://github.com/mariia-bite/my-visit-card-page"
+            target="_blank"
+            >open-sourced</a
+          >.
+        </p>
+      </footer>
     </div>
   </body>
 </html>
